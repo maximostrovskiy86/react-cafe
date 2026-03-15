@@ -8,8 +8,8 @@ interface VoteStatsProps {
   positiveRate: number;
 }
 
-const VoteStats = ({ good, neutral, bad, totalVotes = 0 , positiveRate = 0 }: VoteStatsProps) => {
-  console.log('VoteStats', good);
+const VoteStats = ({ good, neutral, bad, totalVotes = 0, positiveRate = 0 }: VoteStatsProps) => {
+
   return (
     <div className={css.container}>
       <p className={css.stat}>
